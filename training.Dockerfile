@@ -18,4 +18,4 @@ COPY pyproject.toml ./pyproject.toml
 
 RUN poetry install --no-interaction --no-ansi --only main -vvv
 
-COPY ${MODEL_PATH} ./
+COPY ${MODEL_PATH} .
